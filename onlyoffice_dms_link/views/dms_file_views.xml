@@ -1,0 +1,16 @@
+<odoo>
+  <data>
+
+    <record id="view_dms_file_form" model="ir.ui.view">
+      <field name="name">dms_file.onlyoffice.link.form</field>
+      <field name="model">dms.file</field>
+      <field name="inherit_id" ref="dms.view_dms_file_form"/>
+      <field name="arch" type="xml">
+        <header position="inside">
+          <button name="open_onlyoffice" string="Open in Onlyoffice" type="object" invisible="is_oo_relevant == False"/>
+        </header>
+      </field>
+    </record>
+
+  </data>
+</odoo>
