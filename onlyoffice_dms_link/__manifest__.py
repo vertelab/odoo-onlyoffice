@@ -23,14 +23,20 @@
 #
 {
     'name': 'onlyoffice: DMS Link',
-    'version': '1.0',
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.odoo.com""",
+    'version': '18.0.1.0.0',
+    'summary': "Links documents to OnlyOffice for online editing.",
     'category': '', # Technical Settings|Localization|Payroll Localization|Account Charts|User types|Invoicing|Sales|Human Resources|Operations|Marketing|Manufacturing|Website|Theme|Administration|Appraisals|Sign|Helpdesk|Administration|Extra Rights|Other Extra Rights|
-    'description': """
-        Long description of module's purpose
-    """,
+    'description': '''
+DMS Link
+========
+
+    Links documents to OnlyOffice for online editing.
+
+    Features:
+
+        - UI Integration: Extends 2 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on dms.file.
+    ''',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-onlyoffice/onlyoffice_dms_link',
     'images': ['static/description/banner.png'],
