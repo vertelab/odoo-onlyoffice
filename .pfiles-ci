@@ -3,4 +3,4 @@ editions: 18.0 20.0
 
 # Repon vars moduler this repo's modules depend on. Hämtas av workflowen
 # innan modulerna prövas; annars är de "oinstallerbara" av ett skenskal.
-deps: odoo-document
+deps: OCA/dms
